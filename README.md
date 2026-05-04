@@ -12,16 +12,16 @@ Esse projeto foi desenvolvido como parte do meu plano de estudos em Engenharia d
 
 ## Estrutura do projeto
 
-hubspot_cli/
-├── extractor.py    → requisição na API com paginação
-├── transformer.py  → filtro de campanhas válidas
-├── reporter.py     → exportação em Excel
-└── cli.py          → orquestrador do pipeline
-tests/
-├── conftest.py
-└── test_transformer.py
-.env                → credenciais (não versionado)
-.gitignore
+    hubspot_cli/
+    ├── extractor.py    → requisição na API com paginação
+    ├── transformer.py  → filtro de campanhas válidas
+    ├── reporter.py     → exportação em Excel
+    └── cli.py          → orquestrador do pipeline
+    tests/
+    ├── conftest.py
+    └── test_transformer.py
+    .env                → credenciais (não versionado)
+    .gitignore
 
 ## Conceitos aplicados
 
